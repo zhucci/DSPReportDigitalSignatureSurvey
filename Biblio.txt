@@ -7,5 +7,6 @@ Asatryan D., Asatryan N. Combined spatial and frequency domain watermarking //Pr
 Deguillaume F., Voloshynovskiy S., Pun T. Secure hybrid robust watermarking resistant against tampering and copy attack //Signal Processing. – 2003. – Т. 83. – №. 10. – С. 2133-2170.
 \bibitem{al2007}
 Al-Haj A. Combined DWT-DCT digital image watermarking //Journal of computer science. – 2007. – Т. 3. – №. 9. – С. 740-746.
-
+\bibitem{yin2015}
+Yin H. L., Fu Y., Chen Z. B. Practical Quantum Digital Signature //arXiv preprint arXiv:1507.03333. – 2015.
 \end{thebibliography}}

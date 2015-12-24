@@ -8,24 +8,32 @@
 \usepackage{lmodern}
 \usepackage[hidelinks]{hyperref}
 
+%\usepackage[style=numeric,language=auto,backend=biber]{biblatex}
 \usepackage[style=gost-authoryear,language=auto,backend=biber]{biblatex}
-%\usepackage[style=gost-numeric,language=auto,backend=biber]{biblatex}
 \addbibresource{Bibliography.bib}
 %Настройки вида страниц
-\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
-\renewcommand{\baselinestretch}{1.5} 
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\renewcommand{\baselinestretch}{1.25} 
 
 %\makeatletter
 %\renewcommand{\@biblabel}[1]{#1.}
 %\makeatother
+\clubpenalty=10000
+\tolerance=10000
+\widowpenalty=10000
+\hyphenpenalty=10000
+\parindent1.25cm
+\fontfamily{roman}
 
 \begin{document}
 %\nocite{*}
+\addtocounter{page}{2}
 %Настройка шрифтов 
 
-\fontfamily{cmr}
 
 \input{title.tex}
+\tableofcontents
+\newpage
 \section{Введение}
 \input{Vvedenie.tex}
 \section{Методы формирования электронной подписи}
@@ -40,6 +48,7 @@
 \input{conclusion.tex}
 
 \newpage
+
 \printbibliography[env=gostbibliography,sorting=ntvy]
 
 
