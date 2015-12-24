@@ -1,0 +1,11 @@
+\begin{thebibliography}{widestlabel}
+\bibitem{gupta2015}
+GUPTA S., PORWAL V., Recent Digital Watermarking Approaches, Protecting Multimedia Data Ownership. Advances in Computer Science : an International Journal, [S.l.], C. 21-30, март. 2015. ISSN 2322-5157. Доступен: <http://www.acsij.org/acsij/article/view/111>. Дата обращения: 24 Dec. 2015.
+\bibitem{asatryan2009}
+Asatryan D., Asatryan N. Combined spatial and frequency domain watermarking //Proceedings of the 7th International Conference on Computer Science and Information Technologies. – 2009. – С. 323-326.
+\bibitem{deguill2003}
+Deguillaume F., Voloshynovskiy S., Pun T. Secure hybrid robust watermarking resistant against tampering and copy attack //Signal Processing. – 2003. – Т. 83. – №. 10. – С. 2133-2170.
+\bibitem{al2007}
+Al-Haj A. Combined DWT-DCT digital image watermarking //Journal of computer science. – 2007. – Т. 3. – №. 9. – С. 740-746.
+
+\end{thebibliography}}

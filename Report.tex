@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt]{extarticle}
+%\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[style=gost-authoryear,language=auto,backend=biber]{biblatex}
+%\usepackage[style=gost-numeric,language=auto,backend=biber]{biblatex}
+\addbibresource{Bibliography.bib}
+%Настройки вида страниц
+\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\renewcommand{\baselinestretch}{1.5} 
+
+%\makeatletter
+%\renewcommand{\@biblabel}[1]{#1.}
+%\makeatother
+
+\begin{document}
+%\nocite{*}
+%Настройка шрифтов 
+
+\fontfamily{cmr}
+
+\input{title.tex}
+\section{Введение}
+\input{Vvedenie.tex}
+\section{Методы формирования электронной подписи}
+\subsection{Криптографические ЭЦП}
+\input{CryptoDS}
+\subsection{Стеганографические ЭЦП}
+\input{SteganoClassif.tex}
+\input{WMimage.tex}
+\input{WMaudio.tex} %встраивание в аудио файлы
+\input{WMvideo.tex}
+\subsection{Заключение}
+\input{conclusion.tex}
+
+\newpage
+\printbibliography[env=gostbibliography,sorting=ntvy]
+
+
+
+\end{document}

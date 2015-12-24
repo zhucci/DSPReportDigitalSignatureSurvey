@@ -1,0 +1,55 @@
+
+
+\documentclass{article}
+\textwidth 390pt
+\headheight 12pt
+\parindent 1.5em
+\arraycolsep 5pt
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+
+\begin{document}
+\author{Жучков А.}
+\begin{center}
+Отчет о лабораторной работе \\
+по курсу "Планирования последовательности разборки \\ 
+технического изделия"
+\end{center}
+\centering{Вариант 7}
+
+\begin{flushleft}
+Нехорошо \hspace{2cm} душе без знания, и торопливый ногами оступится.\\
+Кто приобретает разум, тот любит душу свою.
+\end{flushleft}
+
+\raggedleft Восточная мудрость о пользе учения.
+\begin{quotation}
+Цитата внезапно вставленная из википедии.
+\end{quotation}
+\begin{enumerate}
+\item {\rule[+4mm]{10cm}{.1mm} <Первый пункт>}
+\item <Последний пункт>
+\end{enumerate}
+\tableofcontents
+\listoftables
+\part{Введение}
+
+\section*{Раздел}
+\subsection*{Подраздел}
+\par Абзацы отделяются друг от друга пустой строкой.
+
+Две или три пустые строки подряд не влияют на работу \LaTeX’а.
+Продолжение без отступа
+
+\part{Основная часть}
+\par В таблице \ref{t-one} вы можете видеть что-то.
+\begin{table} [h]
+<тело таблицы>
+\caption{Стандартные размеры шрифтов в \LaTeX’е.} \label{t-one}
+\end{table}
+
+\part{Заключение}
+
+\end{document}
